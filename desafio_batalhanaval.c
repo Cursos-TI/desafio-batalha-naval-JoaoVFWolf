@@ -22,6 +22,7 @@ int main() {
     tabuleiro[7][7] = 3; // H8
 
     // 4. Imprimindo o cabeçalho do tabuleiro
+    printf(" TABULEIRO BATALHA NAVAL \n");
     printf("  ");
     for (int i = 0; i < 10; i++) {
         printf("%c ", linha[i]);
