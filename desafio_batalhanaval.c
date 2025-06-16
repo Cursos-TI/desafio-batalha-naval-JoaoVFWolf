@@ -10,3 +10,13 @@ int main() {
             tabuleiro[i][j] = 0;
         }
     }
+
+    // 2. Posicionando navio horizontal (linha 3, colunas D, E, F)
+    tabuleiro[2][3] = 3; // D3
+    tabuleiro[2][4] = 3; // E3
+    tabuleiro[2][5] = 3; // F3
+
+    // 3. Posicionando navio vertical (coluna H, linhas 6, 7, 8)
+    tabuleiro[5][7] = 3; // H6
+    tabuleiro[6][7] = 3; // H7
+    tabuleiro[7][7] = 3; // H8
