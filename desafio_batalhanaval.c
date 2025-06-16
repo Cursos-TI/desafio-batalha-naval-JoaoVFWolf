@@ -27,3 +27,15 @@ int main() {
         printf("%c ", linha[i]);
     }
     printf("\n");
+
+    // 5. Imprimindo o tabuleiro com os navios
+    for (int i = 0; i < 10; i++) {
+        printf("%2d ", i + 1); // Numeração das linhas
+        for (int j = 0; j < 10; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
