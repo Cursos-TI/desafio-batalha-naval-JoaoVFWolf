@@ -20,3 +20,10 @@ int main() {
     tabuleiro[5][7] = 3; // H6
     tabuleiro[6][7] = 3; // H7
     tabuleiro[7][7] = 3; // H8
+
+    // 4. Imprimindo o cabeçalho do tabuleiro
+    printf("  ");
+    for (int i = 0; i < 10; i++) {
+        printf("%c ", linha[i]);
+    }
+    printf("\n");
