@@ -21,7 +21,17 @@ int main() {
     tabuleiro[6][7] = 3; // H7
     tabuleiro[7][7] = 3; // H8
 
-    // 4. Imprimindo o cabeçalho do tabuleiro
+    // 4. Navio diagonal principal, em E7, F8, G9
+    tabuleiro[4][2] = 3; // E7
+    tabuleiro[5][3] = 3; // F8
+    tabuleiro[6][4] = 3; // G9
+
+    // 5. Navio diagonal secundária, em H10, I9, J8
+    tabuleiro[9][7] = 3; // H10
+    tabuleiro[8][8] = 3; // I9
+    tabuleiro[7][9] = 3; // J8
+
+    // 6. Imprimindo o cabeçalho do tabuleiro
     printf(" TABULEIRO BATALHA NAVAL \n");
     printf("  ");
     for (int i = 0; i < 10; i++) {
@@ -29,7 +39,7 @@ int main() {
     }
     printf("\n");
 
-    // 5. Imprimindo o tabuleiro com os navios
+    // 7. Imprimindo o tabuleiro com os navios
     for (int i = 0; i < 10; i++) {
         printf("%2d ", i + 1); // Numeração das linhas
         for (int j = 0; j < 10; j++) {
