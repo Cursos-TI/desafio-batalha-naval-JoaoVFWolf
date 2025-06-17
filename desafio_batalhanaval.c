@@ -53,4 +53,4 @@ int main() {
 
 
 //Tive muitas dificuldades em realizar o desafio no nivel mestre, gostaria por favor, de um tutorial explicando melhor como podemos realizar com a manipulação de matrizes!
-// grato!!
+// grato!! Coloquei minha dúvida no fórum de discussão
